@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Staatliches&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #E5E5E5;
+
+}
+
+body::before {
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 465px;
+    background: #293241;
+    position: absolute;
+    z-index: -1;
+}
+
+
+.box {
+    width: 750px;
+    margin: auto;
+}
+
+header {
+    text-align: center;
+    padding-top: 107px;
+}
+
+
+header h1 {
+    font-family: 'Staatliches', cursive;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 45px;
+    color: #FFFFFF;
+}
+
+
+header p {
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 24px;
+    margin-bottom: 18px;
+}
+
+form {
+
+    border-radius: 8px;
+    margin-top: 31px;
+    background: #FFFFFF;
+    margin-bottom: 50px;
+    min-height: 1075px;
+
+}
+
+form .title-1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 8px 8px 0px 0px;
+    background: #F67669;
+    height: 133px;
+    color: #FFFFFF;
+}
+
+fieldset {
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    padding: 30px 64px;
+
+}
+
+input,
+select,
+textarea {
+    background: #FAFAFC;
+    border: 1px solid #E6E6F0;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+
+    padding: 10px;
+}
+
+
+
+.input-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    gap: 22px;
+
+}
+
+.input-wrapper div {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.input-wrapper input {
+    width: 300px;
+    height: 55px;
+    margin-bottom: 15px;
+
+}
+
+.input-email {
+    display: flex;
+    flex-direction: column;
+
+}
+
+span {
+    color: #C1BCCC;
+    font-size: 12px;
+}
+
+.input-email input {
+    height: 55px;
+    margin-bottom: 31px;
+}
+
+.title-2 {
+    text-align: center;
+    margin-bottom: 7px;
+
+}
+
+#line {
+    border: 1px solid #E6E6F0;
+    margin-bottom: 31px;
+}
+
+.mentor {
+    display: flex;
+
+}
+
+.mentor div {
+    display: flex;
+    flex-direction: column;
+}
+
+.mentor select {
+    width: 300px;
+    height: 55px;
+    -webkit-appearance: none;
+    margin-bottom: 31px;
+}
+
+
+
+.feedback {
+    display: flex;
+}
+
+.feedback div {
+    display: flex;
+    flex-direction: column;
+}
+
+.feedback textarea {
+    width: 600px;
+    height: 160px;
+    resize: none;
+
+    margin-top: 8px;
+    margin-bottom: 29px;
+}
+
+.input-check div {
+    display: flex;
+    gap: 8px;
+
+}
+
+
+.input-check input {
+    width: 24px;
+    height: 23.8px;
+    font-size: 14px;
+
+    border-radius: 8px;
+    cursor: pointer;
+    margin-bottom: 36px;
+
+}
+
+#line-2 {
+    border: 1px solid #E6E6F0;
+    margin-top: 10px;
+    margin-bottom: 31px;
+
+}
+
+
+.input-date input {
+    width: 300px;
+    height: 55px;
+
+}
+
+.coluns {
+    display: flex;
+    gap: 20px;
+}
+
+.time input {
+    width: 140px;
+    height: 55px;
+
+
+}
+
+#btn {
+    height: 51px;
+    margin: 63px auto 63px;
+    width: 622px;
+    padding: 15px 40px;
+    background: #F67669;
+    border-radius: 8px;
+    color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}

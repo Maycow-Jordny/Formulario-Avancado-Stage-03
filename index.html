@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formuário Mentoria</title>
+</head>
+
+<body>
+    <div class="box">
+        <header>
+            <h1>AVALIE SUA MENTORIA</h1>
+            <p>Chegou a hora de avaliar o seu mentor. Bora lá?</p>
+            <img src="./images/img1 (2).png" alt="">
+        </header>
+        <form>
+            <div>
+                <h3 class="title-1">INFORMAÇÕES PESSOAIS</h3>
+            </div>
+            <fieldset>
+                <div class="input-wrapper">
+
+                    <div>
+                        <label for="name">Nome</label>
+                        <input type="text" id="name" required>
+                    </div>
+
+                    <div>
+                        <label for="sobrenome">Sobrenome</label>
+                        <input type="text" id="sobrenome" required>
+                    </div>
+                </div>
+
+                <div class="input-email">
+                    <label for="input-email">Email <span>(digite um email válido)</span></label>
+                    <input type="email" id="input-email" required>
+                </div>
+
+                <h3 class="title-2">INFORMAÇÕES DO MENTOR</h3>
+
+                <div id="line">
+
+                </div>
+
+                <div class="mentor">
+                    <div>
+                        <label for="select-mentor">Selecione quem foi o seu mentor</label>
+                        <select name="select-mentor" id="select-mentor" required>
+                            <option value="maria">Maria</option>
+                            <option value="joao">João</option>
+                            <option value="pedro">Pedro</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="feedback">
+                    <div>
+                        <label for="feedback">Feedback sobre o mentor</label>
+                        <textarea name="feedback" id="feedback" cols="30" rows="10"></textarea>
+                    </div>
+                </div>
+
+                <div class="input-check">
+
+                    <div>
+                        <input type="checkbox" id="check-box">
+                        <label for="input-check">Todas as minhas dúvidas foram esclarecidas durante a mentoria.</label>
+                    </div>
+
+                </div>
+
+                <h3 class="title-2">AGENDANDO PRÓXIMA MENTORIA</h3>
+
+                <div id="line-2">
+
+                </div>
+
+
+                <div class="boxdate">
+
+                    <div class="coluns">
+                        <div class="input-date">
+                            <label for="date">Data <span>(DD/MM/AAAA)</span></label>
+                            <input type="date" id="date">
+                        </div>
+
+                        <div class="time">
+                            <label for="begin">Das</label>
+                            <input type="time" id="time">
+                        </div>
+
+                        <div class="time">
+                            <label for="end">Até</label>
+                            <input type="time" id="time">
+                        </div>
+                    </div>
+                </div>
+                <button id="btn">SALVAR</button>
+            </fieldset>
+
+
+
+
+        </form>
+    </div>
+</body>
+
+
+</html>
